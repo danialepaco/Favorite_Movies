@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9563C4AB1D16545F00DDEB23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9563C4A91D16545F00DDEB23 /* Main.storyboard */; };
+		9563C4AD1D16560400DDEB23 /* WebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563C4AC1D16560400DDEB23 /* WebVC.swift */; };
+		95703EAB1D16066500163A5B /* Movie+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95703EA91D16066500163A5B /* Movie+CoreDataProperties.swift */; };
+		95703EAC1D16066500163A5B /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95703EAA1D16066500163A5B /* Movie.swift */; };
+		95703EAE1D16088E00163A5B /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95703EAD1D16088E00163A5B /* MovieCell.swift */; };
 		9596AEF81D14524200FC8964 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9596AEF71D14524200FC8964 /* AppDelegate.swift */; };
 		9596AEFA1D14524200FC8964 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9596AEF91D14524200FC8964 /* ViewController.swift */; };
-		9596AEFD1D14524200FC8964 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9596AEFB1D14524200FC8964 /* Main.storyboard */; };
 		9596AF001D14524200FC8964 /* Favorite_Movies.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9596AEFE1D14524200FC8964 /* Favorite_Movies.xcdatamodeld */; };
 		9596AF021D14524200FC8964 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9596AF011D14524200FC8964 /* Assets.xcassets */; };
 		9596AF051D14524200FC8964 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9596AF031D14524200FC8964 /* LaunchScreen.storyboard */; };
+		95C5D3671D145BD60018AD50 /* TableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C5D3661D145BD60018AD50 /* TableVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9563C4AA1D16545F00DDEB23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9563C4AC1D16560400DDEB23 /* WebVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebVC.swift; sourceTree = "<group>"; };
+		95703EA91D16066500163A5B /* Movie+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Movie+CoreDataProperties.swift"; path = "../Movie+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		95703EAA1D16066500163A5B /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Movie.swift; path = ../Movie.swift; sourceTree = "<group>"; };
+		95703EAD1D16088E00163A5B /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		9596AEF41D14524200FC8964 /* Favorite_Movies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Favorite_Movies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9596AEF71D14524200FC8964 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9596AEF91D14524200FC8964 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9596AEFC1D14524200FC8964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9596AEFF1D14524200FC8964 /* Favorite_Movies.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Favorite_Movies.xcdatamodel; sourceTree = "<group>"; };
 		9596AF011D14524200FC8964 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9596AF041D14524200FC8964 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9596AF061D14524200FC8964 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C5D3661D145BD60018AD50 /* TableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +47,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		95703EA41D15FEAE00163A5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9596AEFE1D14524200FC8964 /* Favorite_Movies.xcdatamodeld */,
+				95703EA91D16066500163A5B /* Movie+CoreDataProperties.swift */,
+				95703EAA1D16066500163A5B /* Movie.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		95703EA51D15FEBC00163A5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9563C4A91D16545F00DDEB23 /* Main.storyboard */,
+				9596AF031D14524200FC8964 /* LaunchScreen.storyboard */,
+				95703EAD1D16088E00163A5B /* MovieCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		95703EA61D15FEC700163A5B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9596AEF71D14524200FC8964 /* AppDelegate.swift */,
+				9596AEF91D14524200FC8964 /* ViewController.swift */,
+				95C5D3661D145BD60018AD50 /* TableVC.swift */,
+				9563C4AC1D16560400DDEB23 /* WebVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		9596AEEB1D14524200FC8964 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +97,11 @@
 		9596AEF61D14524200FC8964 /* Favorite_Movies */ = {
 			isa = PBXGroup;
 			children = (
-				9596AEF71D14524200FC8964 /* AppDelegate.swift */,
-				9596AEF91D14524200FC8964 /* ViewController.swift */,
-				9596AEFB1D14524200FC8964 /* Main.storyboard */,
+				95703EA41D15FEAE00163A5B /* Model */,
+				95703EA51D15FEBC00163A5B /* View */,
+				95703EA61D15FEC700163A5B /* Controller */,
 				9596AF011D14524200FC8964 /* Assets.xcassets */,
-				9596AF031D14524200FC8964 /* LaunchScreen.storyboard */,
 				9596AF061D14524200FC8964 /* Info.plist */,
-				9596AEFE1D14524200FC8964 /* Favorite_Movies.xcdatamodeld */,
 			);
 			path = Favorite_Movies;
 			sourceTree = "<group>";
@@ -125,9 +164,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9563C4AB1D16545F00DDEB23 /* Main.storyboard in Resources */,
 				9596AF051D14524200FC8964 /* LaunchScreen.storyboard in Resources */,
 				9596AF021D14524200FC8964 /* Assets.xcassets in Resources */,
-				9596AEFD1D14524200FC8964 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,19 +177,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95703EAE1D16088E00163A5B /* MovieCell.swift in Sources */,
+				95703EAC1D16066500163A5B /* Movie.swift in Sources */,
 				9596AF001D14524200FC8964 /* Favorite_Movies.xcdatamodeld in Sources */,
+				95C5D3671D145BD60018AD50 /* TableVC.swift in Sources */,
 				9596AEFA1D14524200FC8964 /* ViewController.swift in Sources */,
+				9563C4AD1D16560400DDEB23 /* WebVC.swift in Sources */,
 				9596AEF81D14524200FC8964 /* AppDelegate.swift in Sources */,
+				95703EAB1D16066500163A5B /* Movie+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9596AEFB1D14524200FC8964 /* Main.storyboard */ = {
+		9563C4A91D16545F00DDEB23 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9596AEFC1D14524200FC8964 /* Base */,
+				9563C4AA1D16545F00DDEB23 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -290,6 +334,7 @@
 				9596AF0B1D14524200FC8964 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
